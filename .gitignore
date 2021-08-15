@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Text editor and IDE files
+vscode/
+.idea
+.idea/
+*.iml/
