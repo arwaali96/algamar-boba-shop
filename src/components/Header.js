@@ -50,7 +50,7 @@ const Header = () => {
             </div>
 
             {/* Bottom nav */}
-            <div className="flex items-center space-x-3 p-2 pl-6 bg-gray-400 text-white text-sm">
+            <div className="flex items-center space-x-3 p-2 pl-6 bg-red-400 text-white text-sm">
                 <p className="link flex items-center">
                     <MenuIcon className="h-6 mr-1" />
                     All
