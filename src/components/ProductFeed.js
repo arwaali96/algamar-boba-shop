@@ -1,7 +1,4 @@
 import Product from "./Product";
-import Banner from "../../public/banner.png";
-// import Image from "next/image";
-
 
 const ProductFeed = ({ products }) => {
     return (
