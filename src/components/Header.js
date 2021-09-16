@@ -38,10 +38,10 @@ const Header = () => {
                 </div>
                 {/* Right */}
                 <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-                    <div onClick={session ? signIn : signOut} className="link">
+                    <div onClick={!session ? signIn : signOut} className="link">
                         <p>
-                            {session ? `Hello ${session.user.name}` : "Sign In"}
-                        </p>
+                            {session ? `Hello,  ${session.user.name}` : "Sign In"}
+                        </p> 
                         <p className="font-extrabold md:text-sm">Accounts & Lists</p>
                     </div>
 
@@ -65,7 +65,7 @@ const Header = () => {
             </div>
 
             {/* Bottom nav */}
-            <div className="flex items-center space-x-3 p-2 pl-6 bg-gray-500 text-white text-sm">
+            <div className="flex items-center space-x-3 p-2 pl-6 bg-gray-600 text-white text-sm">
                 <p className="link flex items-center">
                     <MenuIcon className="h-6 mr-1" />
                     All
