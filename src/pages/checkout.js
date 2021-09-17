@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { selectItems, selectTotal } from "../slices/basketSlice";
 import { useSession } from "next-auth/client";
 import Currency from "react-currency-formatter";
+import banner4 from "../../public/banner4.png";
 
 const Checkout = () => {
     const items = useSelector(selectItems);
@@ -18,7 +19,7 @@ const Checkout = () => {
                 {/* Left */}
                 <div className="flex-grow m-5 shadow-sm">
                     <Image
-                        src="https://links.papareact.com/ikj"
+                        src={banner4}
                         width={1020}
                         height={250}
                         objectFit="contain"
