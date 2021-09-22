@@ -46,7 +46,7 @@ const Header = () => {
                     </div>
 
                     <div className="link">
-                        <p>Returns</p>
+                        <p>Reviews</p>
                         <p className="font-extrabold md:text-sm">& Orders</p>
                     </div>
 
